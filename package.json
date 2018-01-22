@@ -1,0 +1,23 @@
+{
+  "name": "plant-food",
+  "version": "1.0.0",
+  "description": "Frontend to plant-food. Helps people find delicious vegan options.",
+  "main": "index.js",
+  "author": "Sean Sassenrath",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.4.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
