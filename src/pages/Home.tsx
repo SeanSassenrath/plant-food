@@ -1,7 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { User } from '../models/User';
+
 import { Nav } from '../components/Nav';
+
+const user = User.create({
+  name: 'sean',
+  isLoggedIn: true,
+})
 
 const PageWrapper = styled.div`
   display: flex;
@@ -17,7 +24,7 @@ const Content = styled.div`
 
 export const Home = () => (
   <PageWrapper>
-    <Nav />
+    <Nav user={user}/>
     <Content />
   </PageWrapper>
 )
